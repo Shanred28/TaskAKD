@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Outline
@@ -20,7 +19,6 @@ namespace Outline
                 _renderer = CreateOutline(outlineMaterial, outlineScale, outlineColor);
             }
             
-            Debug.Log("Interact");
             _renderer.enabled = true;
         }
 
